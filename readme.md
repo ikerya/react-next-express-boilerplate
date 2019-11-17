@@ -4,7 +4,7 @@ The package is intended to install react, next js easier with some start files t
 
 Firstly, install the package:
 ```
-npm i --save r-n-e-b
+npm i r-n-e-b
 ```
 
 Then create `test.js` with followed contents:
@@ -24,9 +24,15 @@ Or via command line:
 node node_modules/r-n-e-b/index
 ```
 
+Second argument (after script path: node_modules/r-n-e-b/index) may be passed as a path to copy files in:
+
+```
+node node_modules/r-n-e-b/index /var/www
+```
+
 Then run from your project's directory to install new dependencies:
 ```
 npm install
 ```
 
-It has to be run because of `r-n-e-b` modifies your package.json dependencies with those that are presented in files which are copied to your project.
+It has to be run because of `r-n-e-b` modifies your package.json dependencies with those that are presented in our package.json.

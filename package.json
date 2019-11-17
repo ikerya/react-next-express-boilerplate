@@ -1,6 +1,6 @@
 {
   "name": "r-n-e-b",
-  "version": "1.0.14",
+  "version": "1.0.18",
   "description": "",
   "main": "app.config.js",
   "scripts": {
@@ -8,6 +8,10 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ikerya/react-next-express-boilerplate.git"
+  },
   "dependencies": {
     "ncp": "^2.0.0"
   }
